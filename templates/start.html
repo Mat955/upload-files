@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/select">
+</head>
+
+<body>
+    <h1>Upload File</h1>
+    <form action="/upload" enctype="multipart/form-data" method="post">
+        <div>
+            <label>File Name:</label>
+            <input type="text" name="title">
+        </div>
+        <div>
+            <label>File:</label>
+            <input class="select" type="file" name="upload" multiple="multiple"><br>
+        </div>
+        <input class="send" type="submit" value="Send">
+    </form>
+</body>
+
+</html>
